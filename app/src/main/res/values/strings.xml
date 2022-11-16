@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project 2 Rendy Hafiz Guspandy</string>
+    <string name="eNim">Silahkan Masukkan NIM Anda</string>
+    <string name="ePass">Silahkan Masukkan Password Anda</string>
+    <string name="bLogin">Login</string>
+    <string name="copyright">
+        <b>IKIP PGRI PONTIANAK © 2022 \n P. TI IKIP PGRI Pontianak</b>
+    </string>
+    <!-- Profil Organisasi -->
+    <string name="tOrg">Nama Perguruan Tinggi</string>
+    <string name="Org">IKIP PGRI PONTIANAK</string>
+    <string name="tAlamat">Alamat \u0026 Telepon</string>
+    <string name="Alamat">Jl.Ampera No. 88 Pontianak \n Kalimantan Barat - Indonesia</string>
+    <string name="telp">0561-748219/0561-6589855 \n rektorat@ikippgriptk.ac.id</string>
+    <string name="tAkreditas">Akreditas Perguruan Tinggi</string>
+    <string name="akreditasi">"B"</string>
+    <string name="tPimpinan">Pimpinan Perguruan Tinggi</string>
+    <string name="tRektor">Rektor</string>
+    <string name="rektor">Muhamad Firdaus, M.Pd</string>
+    <string name="tWarek1">Wakil Rektor I</string>
+    <string name="warek1">Dr.Aunurrahman, M.Pd</string>
+    <string name="tWarek2">Wakil Rektor II</string>
+    <string name="warek2">Suherdiyanto, M.Pd</string>
+
+</resources>
