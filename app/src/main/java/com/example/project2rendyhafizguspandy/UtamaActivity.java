@@ -2,8 +2,11 @@ package com.example.project2rendyhafizguspandy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -27,5 +30,20 @@ public class UtamaActivity extends AppCompatActivity {
         gambar = getResources().obtainTypedArray(R.array.array_logo);
         lvAdapter adapter = new lvAdapter(this,judul,ket,gambar);
         lv.setAdapter(adapter);
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                if (i == 0){
+                    Intent j = new Intent(UtamaActivity.this,ProfilActivity.class);
+                    startActivity(j);
+                }else if (i == 1){
+                    Intent j = new Intent(UtamaActivity.this,VMActivity.class);
+                    startActivity(j);
+                }else if (i == 2){
+                    Intent j = new Intent(UtamaActivity.this,PrestasiActivity.class);
+                    startActivity(j);
+                }
+            }
+        });
     }
 }

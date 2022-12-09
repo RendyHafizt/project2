@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project2RendyHafizGuspandy">
         <activity
+            android:name=".VMActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PrestasiActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".UtamaActivity"
             android:exported="false" />
         <activity

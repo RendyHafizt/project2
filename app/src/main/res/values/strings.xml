@@ -22,4 +22,30 @@
     <string name="tWarek2">Wakil Rektor II</string>
     <string name="warek2">Suherdiyanto, M.Pd</string>
 
+    <!-- Pratikum 6 String -->
+    <string name="tFakProd">Fakultas \u0026 Program Studi</string>
+    <string name="fakProd">
+        1. Fakultas Ilmu Pendidikan dan Pengetahuan Sosial \n
+            \t a. Pendidikan Pancasila dan Kewarganegaraan
+            \t b. Bimbingan dan Konseling
+            \t c. Pendidikan Sejarah
+            \t d. Pendidikan Geografi
+        2. Fakultas MIPA dan Teknologi \n
+            \t a. Pendidikan Matematika \n
+            \t b. Pendidikan Fisika \n
+            \t c. Pendidikan Teknologi Informasi \n
+            \t d. Pendidikan Biologi \n
+        3. Fakultas Bahasa dan Seni \n
+            \t a. Pendidikan Bahasa Indonesia \n
+            \t b. Pendidikan Bahasa Inggris \n
+        4. Fakultas Pendidikan Olahraga dan Kesehatan\n
+            \t a. Pendidikan Olahraga dan Kesehetan
+    </string>
+    <string name="tVisi">VISI</string>
+    <string name="tMisi">MISI</string>
+    <string name="tSasaran">SASARAN</string>
+
+    <string name="tJudul">Jenis Prestasi</string>
+    <string name="tIsi">Isi Prestasi</string>
+
 </resources>
